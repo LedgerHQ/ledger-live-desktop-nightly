@@ -95,7 +95,7 @@ const UpdaterTopBanner = () => {
 
     if (!VISIBLE_STATUS.includes(status)) return null;
 
-    let content: ?Content = CONTENT_BY_STATUS(
+    const content: ?Content = CONTENT_BY_STATUS(
       quitAndInstall,
       reDownload,
       downloadProgress,
@@ -105,17 +105,17 @@ const UpdaterTopBanner = () => {
 
     if (!content) return null;
 
-    if (__APP_VERSION__.includes("nightly")) {
-      content = {
-        Icon: IconInfoCircle,
-        message: <Trans i18nKey="update.nightlyWarning" />,
-        right: (
-          <FakeLink onClick={() => openURL(urls.liveHome)}>
-            <Trans i18nKey="update.downloadNow" />
-          </FakeLink>
-        ),
-      };
-    }
+    // if (__APP_VERSION__.includes("nightly")) {
+    //   content = {
+    //     Icon: IconInfoCircle,
+    //     message: <Trans i18nKey="update.nightlyWarning" />,
+    //     right: (
+    //       <FakeLink onClick={() => openURL(urls.liveHome)}>
+    //         <Trans i18nKey="update.downloadNow" />
+    //       </FakeLink>
+    //     ),
+    //   };
+    // }
 
     return (
       <TopBanner
