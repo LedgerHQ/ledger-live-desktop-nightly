@@ -5,7 +5,7 @@
   "name": "ledger-live-desktop",
   "productName": "Ledger Live Nightly",
   "description": "Ledger Live - Desktop Nightly",
-  "version": "2.32.2",
+  "version": "2.32.2-nightly.1630708424",
   "author": "Ledger Live Team <team-live@ledger.fr>",
   "repository": "https://github.com/LedgerHQ/ledger-live-desktop-nightly",
   "license": "MIT",
