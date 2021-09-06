@@ -7,7 +7,7 @@
   "description": "Ledger Live - UI Desktop",
   "version": "0.0.1",
   "author": "Ledger Live Team <team-live@ledger.fr>",
-  "repository": "https://github.com/LedgerHQ/ledger-live-desktop/ui-lib",
+  "repository": "https://github.com/LedgerHQ/ledger-live-desktop-nightly/ui-lib",
   "license": "MIT",
   "private": true,
   "main": "./index.js",
