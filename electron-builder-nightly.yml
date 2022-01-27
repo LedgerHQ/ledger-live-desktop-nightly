@@ -66,4 +66,4 @@ publish:
     bucket: ledger-live-download-sandbox
     region: eu-west-1
     acl: public-read
-  - provider: github
+  # - provider: github
